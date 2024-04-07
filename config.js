@@ -15,7 +15,7 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
+global.github=process.env.GITHUB|| "https://github.com/mahijano";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaFv1RZ3QxRtLXfI993h";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaFv1RZ3QxRtLXfI993h" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
@@ -64,9 +64,9 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "©🌹🆂ᵃʰⁱˡ 🅺ɪɴɢ 🅾84   🌹" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "©🆂ᵃʰⁱˡ 🅺ɪɴɢ 🅾84" 
  
-  author : process.env.PACK_AUTHER|| "🌹🆂ᵃʰⁱˡ 🅺ɪɴɢ 🅾84   🌹",
+  author : process.env.PACK_AUTHER|| "🆂ᵃʰⁱˡ 🅺ɪɴɢ 🅾84",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "SAHIL KING",
   ownername:process.env.OWNER_NAME|| "SAHIL KING",
